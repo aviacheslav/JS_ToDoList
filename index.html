@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">	
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Simple XHTMl Document</title>
+		<!-- <link href="./assets/CSS/styles.css" rel="stylesheet" type="text/css"> -->
+		<style type="text/css">
+			<!--section{
+				display: block;
+			}-->
+			.cColumns{
+				display: inline-block;
+				width: 33vh;
+			}
+			header{
+				height: 100vh;
+				padding-top: 40vh;
+				background-color:grey;
+				text-align:center;
+			}
+			p.cButton{
+				background-color: white;
+				text-color: blue;
+				border-style: solid;
+				border-color: blue;
+				border-radius: 6px;
+				padding-top: 28px;
+				padding-bottom: 28px;
+				width: 120px;
+				text-decoration: none;
+				margin-left: 48vh;
+			}
+			p.cButton:hover{
+				text-color: red;
+				/*width: 250px;*/
+				background-color:grey;
+			}
+			/**/
+			article{
+				position:relative;
+			}
+			img{
+				width:800px;/*80%*//*500px;*/
+				height:300px;/*20%;*/ /*200px;*/
+			}
+			.graphicsContainer{
+				width:800px;
+				height:300px;
+				/*position :relative;*/
+			}
+			.Button{
+				position: absolute;
+				border-radius:50%;
+				background-color:blue;
+				color:white;
+				top:50%;
+				z-index:+1;
+				border-width:0;
+				width:40px;
+				height: 40px;
+			}
+			.Button:hover{
+				background-color:grey;
+			}
+			.leftButton{
+				left: 50px;
+			}
+			.rightButton{
+				right: 50px;
+			}
+			.sectionVisible{
+				position: relative;
+			}
+			.sectionInvisible{
+				display: none;
+			}
+			h2{
+				height: 20px;
+			}
+		</style>
+    </head>
+    <body style="background-color:grey">
+	<h1>To Do List</h1>
+	<div>
+		<p id="PrimaryText">Here could be your tasks</p>
+		<ul>
+			<!-- <li>
+				<p>Lorem iosum dolor sit amet</p>
+				<button>Delete Task</button>
+				<button>Insert Task</button>
+			</li>
+			<li>
+				<p>Lorem iosum dolor sit amet</p>
+				<button>Delete Task</button>
+				<button>Insert Task</button>
+			</li> -->
+		</ul>
+		<button id="newTask">Add a new task</button>
+	</div>
+	
+	<script src="index.js"></script>
+	</body>
+</html>
